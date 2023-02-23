@@ -1,6 +1,6 @@
 streamlit
 pillow
 pandas
-cv2
+cv2zone
 numpy 
 base64
