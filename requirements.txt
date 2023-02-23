@@ -1,2 +1,6 @@
 streamlit
 pandas
+from PIL import Image
+cv2
+numpy 
+base64
