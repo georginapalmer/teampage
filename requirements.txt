@@ -1,5 +1,5 @@
 streamlit
-PIL
+pillow
 pandas
 cv2
 numpy 
