@@ -1,6 +1,6 @@
 streamlit
 pillow
 pandas
-cv2zone
+opencv-python
 numpy 
 base64
