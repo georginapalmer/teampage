@@ -3,3 +3,4 @@ pillow
 pandas
 opencv-python
 numpy 
+base64
