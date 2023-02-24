@@ -18,6 +18,25 @@ def add_bg_from_local(image_file):
     unsafe_allow_html=True
     )
 add_bg_from_local('image_file.jpeg')  
+def main():
+    # Create a banner at the top with links to other pages
+    with st.container():
+        st.markdown(
+            """
+            <div style='background-color: white; padding: 1px;'>
+            <h1 style='font-family:Optima;color: #8B4513; text-align: center;'>Jorge & Jeff</h1>
+            <p style='font-family: Optima;color: #8B4513; text-align: center; font-size: 20px;'> 
+            <a style='color: #8B4513; text-decoration: none;' href='/'>Homepage</a> | 
+            <a style='color: #8B4513; text-decoration: none;' href='/clothing'>Clothing</a> | 
+            <a style='color: #8B4513; text-decoration: none;' href='/about'>About</a> | 
+            <a style='color: #8B4513; text-decoration: none;' href='https://georginapalmer-teampage-teampage-1k7d1b.streamlit.app' target='_blank'>Team</a>
+            </p>
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
+if __name__ == '__main__':
+     main()
 
 image2 = Image.open('JorgeJeff.jpg')
 st.image(image2)
