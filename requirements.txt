@@ -1,6 +1,4 @@
 streamlit
 pillow
 pandas
-opencv-python
-numpy 
 pybase64
